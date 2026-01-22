@@ -1,5 +1,5 @@
 {
-  "name": "myrapier",
+  "name": "lib_rapier",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@dimforge/rapier3d-compat": "^0.13.1",
-    "webpack": "^5.93.0"
+    "@dimforge/rapier3d-compat": "^0.19.3",
+    "@dimforge/rapier3d-simd-compat": "^0.19.3"
   },
   "devDependencies": {
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^6.0.1"
   }
 }
