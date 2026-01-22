@@ -1,0 +1,18 @@
+{
+  "name": "myrapier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.13.1",
+    "webpack": "^5.93.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
