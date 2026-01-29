@@ -1,18 +1,17 @@
 {
   "name": "lib_rapier",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "description": "rapier.js for cables.gl",
   "dependencies": {
-    "@dimforge/rapier3d-compat": "^0.19.3",
-    "@dimforge/rapier3d-simd-compat": "^0.19.3"
+    "@dimforge/rapier3d-compat": "0.19.3",
+    "@dimforge/rapier3d-simd-compat": "0.19.3"
   },
   "devDependencies": {
-    "webpack-cli": "^6.0.1"
+    "webpack-cli": "6.0.1"
   }
 }
