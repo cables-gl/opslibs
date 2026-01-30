@@ -4,7 +4,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "build": "webpack"
+    "clean": "rm -rf dist/",
+    "build": "npm run clean && webpack"
   },
   "description": "rapier.js for cables.gl",
   "dependencies": {
