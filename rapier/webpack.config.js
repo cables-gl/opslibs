@@ -7,8 +7,9 @@ const __dirname = fileURLToPath(metaUrl.href);
 export default () => {
     return [
         {
-            entry: './src/index.js',
-            mode: "production",
+            entry: "./src/index.js",
+            mode: "development",
+            devtool: "source-map",
             performance: {
                 maxEntrypointSize: 2500000,
                 maxAssetSize: 2500000
@@ -17,8 +18,8 @@ export default () => {
                 asyncWebAssembly: true
             },
             output: {
-                path: path.resolve(__dirname, 'dist'),
-                filename: 'rapier.js',
+                path: path.resolve(__dirname, "dist"),
+                filename: "rapier.js",
             }
         }
     ];
