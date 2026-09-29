@@ -9,8 +9,8 @@
   },
   "description": "rapier.js for cables.gl",
   "dependencies": {
-    "@dimforge/rapier3d-compat": "0.19.3",
-    "@dimforge/rapier3d-simd-compat": "0.19.3"
+    "@dimforge/rapier3d-compat": "0.21.0",
+    "@dimforge/rapier3d-simd-compat": "0.21.0"
   },
   "devDependencies": {
     "webpack-cli": "6.0.1"
